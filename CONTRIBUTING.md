@@ -4,7 +4,7 @@ Welcome! We are excited you want to contribute. This project aims to create an o
 
 ## 🛠️ How You Can Help
 
-We are currently looking for contributions in three core areas:
+We welcome contributions in three core areas:
 1. **Data Science:** Improving our training dataset by adding novel phishing templates and reducing false positives.
 2. **AI Engineering:** Swapping the current BERT-tiny model for a more robust model (e.g., RoBERTa) or implementing SHAP (SHapley Additive exPlanations) to highlight exactly *which* words triggered the alert.
 3. **Cybersecurity / Threat Intel:** Connecting the app to external APIs (like VirusTotal or URLScan) to cross-reference links found within the text.
