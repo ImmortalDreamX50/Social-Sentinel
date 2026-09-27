@@ -11,3 +11,32 @@ id,text,urgency_flag,authority_flag,manipulation_flag,label
 10,Can we reschedule our 1-on-1 to tomorrow? I'm running behind on the current sprint.,0,0,0,safe
 11,SECURITY WARNING: Your crypto wallet has been compromised. Transfer your assets to this secure vault address immediately.,1,0,1,phishing
 12,Please find attached the meeting minutes from yesterday's board session.,0,0,0,safe
+13,Hey are we still on for the bootcamp tomorrow?.,0,0,0,safe
+14,Your purchase for $207.00 USD of BTC is now available in your account.,1,0,1,phishing
+15,To prevent any potential security breaches it is crucial that all employees update their systems immediately.,1,1,1,phishing
+16,Immediate Action Required: Email Account Deactivation Notice.,1,0,1,phishing
+17,A refund of R4 240 is now pending. This link will expire in 2 business days.,0,1,1,phishing
+18,Immediate adjustments are necessary. Please urgently review conflicting dates to resolve this issue.,1,1,1,phishing
+19,Good luck for your 2024 final NSC examinations!.,0,0,0,safe
+20,Account as potentially fraudulent You can immediately view the detailed list of flagged expenses and verify their authenticity through the secure link below:.,1,0,1,phishing
+21,Notice water will not be available at 24 June 2026 please fill up your tank.,0,0,0,safe
+22,if you did not authorize this transfer you must act immediately Unless reversed within the next 24 hours the payment will be released and become non-recoverable.,1,1,1,phishing
+23,We detected multiple failed MFA attempts on your account Please verify immediately.,1,0,1,safe
+24,You have received a new payment to your Global Payment Service!.,0,1,1,phishing
+25,Due to the nature of the changes we require you to review them or your account will remain suspended.,1,1,1,phishing
+26,Create a free account today and receive a 250 USD kick-start bonus.,0,0,1,phishing 
+27,Claim your free Google device today.,1,0,1,phishing
+28,Court Appearance payment pay this amount now to avoid legal action.,1,1,1,phishing
+29,Benefit Suspension suspended due to an error or missing information update your information now.,1,1,1,phishing
+30,Tax Refund update your bank details.,0,1,1,phishing
+31,Voicemail Waiting click on the link to listen to the Voicemail.,1,0,1,phishing
+32,Storage Quota Exceeded pay now or your data will be lost.,1,1,1,phishing
+33,Go Green Ideas are Due June 30th!.,0,0,0,safe 
+34,Web Secure Password Requested.,0,0,0,safe
+35,Account Compromise call this number for more information.,1,1,1,phishing
+36,Payment Processing Failed click on the Netflix link below and pay.,0,1,1,phishing
+37,Order Confirmation for iPhone 14 Pro Max information on the link below.,0,0,1,phishing
+38,Unusual Sign-In Activity click on the link below.,0,1,1,phishing
+39,Delivery failed click the link and track your delivery.,0,1,1,phishing
+40,Student in Johannesburg Job Alert.,0,0,0,safe 
+41,Payment Declined Your payment failed click on the link now and update the billing info.,1,1,1,phishing

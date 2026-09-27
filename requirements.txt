@@ -1,1 +1,15 @@
+python==3.11.8
+
+gradio==5.0.0
+
+scikit-learn==1.5.0
+
+pandas==2.2.0
+
+numpy==1.26.0
+
+matplotlib==3.8.0
+
+
+
 
