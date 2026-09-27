@@ -143,3 +143,9 @@ $$\text{Attribution Score}_j = w_j \cdot x_j$$
 
 3. **Dashboard Output Serialization:** The extracted key signals, along with probability distributions, are passed directly to the Gradio Blocks UI layer for real-time visualization.
 
+Dataset-Driven Feature Calibration & Multi-Flag Optimization
+
+To ensure the TF-IDF vectorizer and dual-track classifiers generalize effectively against zero-day social engineering vectors, feature encoding is calibrated using a balanced, multi-label training corpus stored within the `dataset/` directory.
+
+* **Target Space Alignment:** Training vectors are mapped directly against orthogonal behavioral indicator vectors (`urgency_flag`, `authority_flag`, `manipulation_flag`), allowing the auxiliary regression heads to isolate psychological levers independently of the primary threat label.
+* **Class Balance & Noise Mitigation:** Corpus curation combines high-risk spoofed notifications with neutral operational baseline texts. This prevents the high-dimensional sparse space from over-indexing on generic high-frequency words, ensuring high precision and low false-positive rates during real-time Gradio UI inference.
