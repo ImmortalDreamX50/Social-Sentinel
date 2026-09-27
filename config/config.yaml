@@ -1,0 +1,26 @@
+project:
+  name: "Social Sentinel"
+  version: "1.0.0"
+
+data:
+  raw_path: "dataset/training-dataset/social-sentinel-training-dataset-v1.csv"
+  test_size: 0.2
+  random_state: 42
+
+features:
+  ngram_range: [1, 2]
+  max_features: 5000
+
+model:
+  default_classifier: "Logistic Regression"
+  available_classifiers:
+    - "Logistic Regression"
+    - "Random Forest"
+    - "SVM (Linear)"
+    - "Multinomial Naive Bayes"
+  artifact_path: "models/artifacts/phishing_pipeline.joblib"
+  phishing_threshold: 0.50 
+
+soc_actions:
+  enable_defanging: true
+  quarantine_dir: "data/quarantine/"
