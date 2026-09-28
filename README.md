@@ -84,5 +84,29 @@ The project relies on a starter dataset (`social_sentinel_starter_dataset.csv`).
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/your-username/social-sentinel.git](https://github.com/your-username/social-sentinel.git)
-   cd social-sentinel
+   git clone https://github.com/ImmortalDreamX50/Social-Sentinel.git
+   cd Social-Sentinel
+   ```
+
+2. **Create a virtual environment and install dependencies:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+3. **Train the model** (writes the artifact to the path set in `config/config.yaml`):
+   ```bash
+   python src/modeling/train.py
+   ```
+
+4. **Launch the Gradio dashboard** on http://localhost:7860 :
+   ```bash
+   python src/dashboard/app.py
+   ```
+
+5. **Optional — run in Docker:**
+   ```bash
+   docker build -t social-sentinel .
+   docker run -p 7860:7860 social-sentinel
+   ```
